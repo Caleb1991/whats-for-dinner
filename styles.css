@@ -21,9 +21,61 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
   background: #0fb9b1;
+  height: 40px;
 }
 
-.selector .selection-menu h3 span {
+.header h1 {
+  font-weight: lighter;
+  font-size: 20px;
+}
+
+.selector {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  height: 100%;
+}
+
+.selection-menu {
+  margin: 40px 80px;
+  background: rgba(225, 225, 225, .9);
+  opacity: .9;
+  height: 300px;
+  width: 500px;
+}
+
+.selection-menu h3 span {
   color: #ee5253;
+}
+
+.selection-menu button {
+  height: 30px;
+  width: 100px;
+  background-color: #0fb9b1;
+  border: none;
+  border-radius: 4px;
+}
+
+.selection-menu button:hover {
+  cursor: pointer;
+}
+
+.returned-value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 40px 80px;
+  background: rgba(225, 225, 225, .9);
+  opacity: .9;
+  height: 300px;
+  width: 500px;
+}
+
+.returned-value .background-img {
+height: 100px;
+width: 100px;
 }
