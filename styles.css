@@ -41,11 +41,21 @@ body {
 }
 
 .selection-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
   margin: 40px 80px;
+  padding: 30px 40px;
+  line-height: 20px;
   background: rgba(225, 225, 225, .9);
   opacity: .9;
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
+}
+
+.selection-menu h3 {
+  font-size: 25px;
 }
 
 .selection-menu h3 span {
@@ -71,11 +81,11 @@ body {
   margin: 40px 80px;
   background: rgba(225, 225, 225, .9);
   opacity: .9;
-  height: 300px;
-  width: 500px;
+  height: 400px;
+  width: 400px;
 }
 
 .returned-value .background-img {
-height: 100px;
-width: 100px;
+height: 150px;
+width: 150px;
 }
