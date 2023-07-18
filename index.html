@@ -11,20 +11,24 @@
       <div class="selection-menu">
         <h3>What are you looking for?<span>*</span></h3>
         <label for="side">
-          <input name ='dish-selection' type="radio" id="side" value="side"> Side
+          <input name='dish-selection' type="radio" id="side" value="side"> Side
         </label>
         <label for="main-dish">
-          <input name ='dish-selection' type="radio" id="main-dish" value="main-dish"> Main Dish
+          <input name='dish-selection' type="radio" id="main-dish" value="main-dish"> Main Dish
         </label>
         <label for="dessert">
-          <input name ='dish-selection' type="radio" id="dessert" value="dessert"> Dessert
+          <input name='dish-selection' type="radio" id="dessert" value="dessert"> Dessert
         </label>
         <label for="entire-meal"> 
-          <input name ='dish-selection' type="radio" id="entire-meal" value="entire-meal"> Entire Meal </label>
-        <button type="submit">Let's Cook!</button>
+          <input name='dish-selection' type="radio" id="entire-meal" value="entire-meal"> Entire Meal </label>
+        <button type="submit" class="submit-button">Let's Cook!</button>
       </div>
       <div class="returned-value">
         <img src="./assets/cookpot.svg" alt="Cooking Pot" class="background-img">
+        <div class="dish hidden">
+          <p>You should make:</p>
+          <h3></h3>
+        </div>
       </div>
     </div>
   </body>

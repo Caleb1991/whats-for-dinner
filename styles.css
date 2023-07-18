@@ -89,3 +89,7 @@ body {
 height: 150px;
 width: 150px;
 }
+
+.hidden {
+  display: none;
+}
